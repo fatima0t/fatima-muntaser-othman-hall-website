@@ -1,0 +1,107 @@
+
+  
+form {
+  font-family: 'Cairo', sans-serif;
+  width: 400px;
+  margin-top:90px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  margin-left: 80px;
+  padding: 0px;
+  border-radius: 30px;
+  font-weight: bold;
+  /*border: 3px solid green;*/
+}
+
+
+
+.container h1 {
+  text-align: center;
+  color: green;
+}
+
+.container input[type="text"],
+.container input[type="submit"],
+.container input[type="number"],
+.container input[type="time"],
+.container input[type="notes"],
+.container input[type="date"] {
+  font-family: 'Cairo', sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #07ff66;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+  font-weight: bold;
+}
+
+.container input[type="submit"] {
+  font-family: 'Cairo', sans-serif;
+  background-color: #07ff66;
+  color: #000000;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  display: grid; /*form under the photo*/
+  grid-template-columns: 1fr 1fr; /*form under the photo*/
+  grid-gap: 2rem; /*space between form & photo*/
+  padding: 0 2rem; /* space between photo & body*/
+  
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.img img {
+  width: 500px;
+  margin-top: 30px;
+}
+
+
+.container0 {
+  max-width: 100%;
+  margin-top: 10px;
+  /*margin-top: 80px;
+  margin-bottom: 100px;
+  margin-right: 90px;
+  margin-left: 10px;*/
+  border: 3px solid #000000;
+  padding-left: 0px;
+  border-radius: 10px;
+ /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+ box-shadow: 10px 5px 5px red;
+ 
+  
+}
+th, td {
+  width: 360px;
+    border: 2px solid;
+    padding-left: 10px;
+    text-align: lift;
+    
+  }
+
+   table {
+    width: 360px;
+    text-align: lift;
+    padding-left: 10px;
+  }
+
+
+
+
+
+

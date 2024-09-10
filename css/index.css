@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  ; /* Light background color */
+  color: #333; /* Text color */
+  font-family: 'Cairo', sans-serif; /* استخدام خط الرقعة */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  /* Green background for navbar */
+  padding: 20px 0;
+  color:black;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: black; /* White text color */
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #07ff66; /* Darker green on hover */
+  border-radius: 20px; /* Rounded corners */
+}
+
+.section {
+  padding: 40px;
+  text-align: center; /* Center-align text */
+  margin: 20px 0; /* Margin between sections */
+  border-radius: 20px; /* Rounded corners */
+  background-color: white; /* White background for sections */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.header-content h1 {
+  font-size: 36px;
+  color: #000000; /* لون النص */
+ 
+}
+
+.header-content p {
+  font-size: 20px;
+  color: #666; /* Gray color for paragraph */
+}
+
+.header-image {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.callout {
+  background-color: #f9f9f9; /* Light background for callout boxes */
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for callouts */
+}
+
+.callout i {
+  color: #07ff66; /* Green icon color */
+}
+
+.callout h3 {
+  margin: 10px 0; /* Margin around heading */
+  color: #333; /* Dark text color */
+}
+
+.navbar a i {
+  color: red; /* تغيير لون الأيقونات إلى الأحمر */
+}
+
+.phone-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+}
+
+.phone-icon {
+  font-size: 30px; /* Icon size */
+  color: #07ff66; /* Icon color */
+  margin-bottom: 10px; /* Space below the icon */
+}
+
+.phone-number {
+  font-size: 24px; /* Font size for the phone number */
+  color: #555; /* Slightly lighter text color */
+  margin: 0; /* Remove default margin */
+}

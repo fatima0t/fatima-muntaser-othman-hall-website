@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <title> قاعات بلدية علار</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"> 
+    <link rel="icon" href="photo\icons8-palestine-48.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+      <a href="#home">
+        <i class="fas fa-home"></i> الرئيسية
+    </a>
+    <a href="login.php">
+      <i class="fas fa-user"></i> المستخدم
+  </a>
+  <a href="reservehallbyguest.php">
+    <i class="fas fa-user-circle"></i> الزائر
+</a>
+<a href="#hall">
+  <i class="fas fa-landmark"></i> القاعات 
+</a>
+        <a href="#connect">
+            <i class="fas fa-link"></i> التواصل
+        </a>
+       
+        
+       
+    </div>
+
+    <div id="home" class="section">
+        <div id="headerwrap">
+            <div class="header-content">
+                <h1>قاعات بلدية علار</h1>
+                <p>السلام عليكم، ومرحبًا بكم في موقعنا</p>
+            </div>
+            <img src="photo/Counting stars-bro.svg" alt="Hall Image" class="header-image img-fluid">
+        </div>
+    </div>
+    
+    <div id="hall" class="section">
+        <div class="container">
+            <h2 class="centered">القاعات</h2>
+            <div class="row">
+                <div class="col-lg-4 callout">
+                    <i class="fa fa-landmark fa-3x"></i>
+                    <h3>القاعة الشمالية</h3>
+                    <p>تقع شمال البلدة في حارة العساروي</p>
+                </div>
+                <div class="col-lg-4 callout">
+                    <i class="fa fa-landmark fa-3x"></i>
+                    <h3>القاعة الوسطى</h3>
+                    <p>تقع أسفل مبنى بلدية علار</p>
+                </div>
+                <div class="col-lg-4 callout">
+                    <i class="fa fa-landmark fa-3x"></i>
+                    <h3>القاعة الجنوبية</h3>
+                    <p>تقع في جنوب البلدة</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="connect" class="section">
+        <div class="input-div one">
+            <div class="phone-container">
+                <div class="div">
+                    <h2 class="centered">تواصل معنا</h2>
+                </div>
+                <div class="i">
+                    <i class="fas fa-phone-alt phone-icon"></i>
+                </div>
+                <p class="phone-number">0592330100</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth scrolling functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

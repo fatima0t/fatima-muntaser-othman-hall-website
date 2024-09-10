@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: small;
+   
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #fff;
+ color: #000000; /* font color */
+ font-weight: bold;
+}
+
+
+
+
+.container0 {
+ max-width: 100%;
+ margin-top: 10px;
+
+ border-radius: 10px;
+/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+
+
+ 
+}
+table {
+    width: 100%; /* Make the table take full width of its container */
+    border-collapse: collapse; /* Combine borders for a cleaner look */
+   
+    table-layout: fixed;
+    text-align: center;
+  }
+
+th, td {
+    border: 2px solid;
+    padding: 8px;
+    text-align: right; /* Align text to the right */
+    word-wrap: break-word; /* Allow long words to break and wrap */
+    text-align: center;
+}
+
+th {
+    font-weight: bold; /* Keep headers bold */
+}
+
+td {
+    font-weight: normal; /* Data cells are not bold */
+}
+.notes-column {
+  white-space: normal; /* Allows text to wrap */
+  word-wrap: break-word; /* Allows long words to break and wrap */
+  max-width: 200px; /* Set a maximum width for the column */
+}
+
+
+ 
+
+
+
+      
